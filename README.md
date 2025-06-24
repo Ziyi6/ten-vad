@@ -14,6 +14,8 @@
 <br>
 
 *Latest News* 🔥
+- [2025/06] We released the **ONNX** model and the corresponding inference code in C! Now the model can be deployed in **any platforms** and **any CPU architectures**!
+<br>
 - [2025/06] We are excited to announce the release of **WASM+JS** for Web WASM Support. 
 <br>
 
@@ -354,7 +356,7 @@ from ten_vad import TenVad
 
 ### **C Usage**
 #### **Build Scripts**
-Located in examples/ directory:
+Located in examples/ directory and examples_onnx (for **ONNX** usage on Linux):
 
 - Linux: build-and-deploy-linux.sh
 - Windows: build-and-deploy-windows.bat
@@ -374,7 +376,7 @@ Runtime library path configuration:
 - Configure toolchain and architecture settings
 
 #### **Overview of Usage**
-- Navigate to examples/
+- Navigate to examples/ or examples_onx/ (for ONNX usage on Linux)
 - Execute platform-specific build script
 - Configure dynamic library path
 - Run demo with sample audio s0724-s0730.wav
@@ -396,11 +398,19 @@ sudo apt update
 sudo apt install libc++1
 ```
 
-##### **Usage**
+##### **Usage (prebuilt-lib)**
 ```
 1) cd ./examples
 2) ./build-and-deploy-linux.sh
 ```
+
+##### **Usage (ONNX)**
+You have to download the **onnxruntime** packages from the official website. Note that the version of onnxruntime must be higher than 1.17.1 (e.g. onnxruntime-linux-x64-1.17.1.tgz).
+```
+1) cd examples_onnx/
+2) ./build-and-deploy-linux.sh --ort-root /absolute/path/to/your/onnxruntime/root/dir
+```
+
 <br>
 
 ####  **2. Windows**
@@ -538,32 +548,13 @@ Most questions can be answered by using DeepWiki, it is fast, intutive to use an
 ```
 <br>
 
-## Usage Guidance
+## License
 
-1. You may not Deploy the TEN VAD in a way that competes with Agora's
-   offerings and/or that allows others to compete with Agora's offerings,
-   including without limitation enabling any third party to develop or
-   deploy Applications.
-
-2. You may Deploy the TEN VAD solely to create and enable deployment
-   of your Application(s) solely for your benefit and the benefit of your
-   direct End Users. If you prefer, you may include the following notice in
-   the documentation of your Application(s): "Powered by TEN VAD".
-
-3. "End Users" shall mean the end-users of your Application(s) who access
-   the TEN VAD solely to the extent necessary to access and use the
-   Application(s) you create or deploy using TEN VAD.
-
-4. "Application(s)" shall mean your software programs designed or developed
-   by using the TEN VAD or where deployment is enabled by the TEN
-   VAD.
+This project is Apache 2.0 with additional conditions licensed. Refer to the "LICENSE" file in the root directory for more information.
 
 
 <br>
 
-## Future Open Source Plan
-
-TEN-VAD is currently released as a binary. Based on community feedback and interest, we plan to progressively open source the internal components of the binary.
 
 [back-to-top]: https://img.shields.io/badge/-Back_to_top-gray?style=flat-square
 
