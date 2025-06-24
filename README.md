@@ -548,7 +548,7 @@ Most questions can be answered by using DeepWiki, it is fast, intutive to use an
 
 ## License
 
-This project is Apache 2.0 with additional conditions licensed. Refer to the "LICENSE" file in the root directory for more information.
+This project is Apache 2.0 with additional conditions licensed. Refer to the "LICENSE" file in the root directory for detailed information.
 
 
 <br>
