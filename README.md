@@ -15,7 +15,6 @@
 
 *Latest News* 🔥
 - [2025/06] We released the **ONNX** model and the corresponding inference code in C! Now the model can be deployed in **any platforms** and **any CPU architectures**!
-<br>
 - [2025/06] We are excited to announce the release of **WASM+JS** for Web WASM Support. 
 <br>
 
