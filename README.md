@@ -44,14 +44,13 @@
 - [TEN Ecosystem](#ten-ecosystem)
 - [Ask Questions](#ask-questions)
 - [Citations](#citations)
-- [Usage Guidance](#usage-guidance)
-- [Future Open Source Plan](#future-open-source-plan)
+- [License](#license)
 
 <br>
 
 ## Welcome to TEN 
 
-TEN is a collection of open-source projects for building real-time, multimodal conversational voice agents. It includes [ TEN Framework ](https://github.com/ten-framework/ten-framework), [ TEN Turn Detection ](https://github.com/ten-framework/ten-turn-detection), TEN Agent, TMAN Designer, and [ TEN Portal ](https://github.com/ten-framework/portal), all fully open-source. [ TEN VAD ](https://github.com/ten-framework/ten-vad) is not fully open-source yet, but it is open for public use.
+TEN is a collection of open-source projects for building real-time, multimodal conversational voice agents. It includes [ TEN Framework ](https://github.com/ten-framework/ten-framework), [ TEN VAD ](https://github.com/ten-framework/ten-vad), [ TEN Turn Detection ](https://github.com/ten-framework/ten-turn-detection), TEN Agent, TMAN Designer, and [ TEN Portal ](https://github.com/ten-framework/portal), all fully open-source.
 
 <br>
 
@@ -375,7 +374,7 @@ Runtime library path configuration:
 - Configure toolchain and architecture settings
 
 #### **Overview of Usage**
-- Navigate to examples/ or examples_onx/ (for ONNX usage on Linux)
+- Navigate to examples/ or examples_onx/ (for **ONNX** usage on Linux)
 - Execute platform-specific build script
 - Configure dynamic library path
 - Run demo with sample audio s0724-s0730.wav
