@@ -6,19 +6,24 @@ of, publicly display, publicly perform, sublicense, distribute, or otherwise
 make available (together, "Deploy") the ten-vad, for commercial or
 non-commercial purposes, provided that you agree to abide by the terms below:
 
-    1. You may Deploy the ten-vad solely to create and enable deployment
+    1. You may not Deploy the ten-vad in a way that competes with Agora's
+       offerings and/or that allows others to compete with Agora's offerings,
+       including without limitation enabling any third party to develop or
+       deploy Applications.
+    
+    2. You may Deploy the ten-vad solely to create and enable deployment
        of your Application(s) solely for your benefit and the benefit of your
        direct End Users. If you prefer, you may include the following notice in
        the documentation of your Application(s): "Powered by ten-vad".
 
-    2. Derivative Works of the ten-vad remain subject to this Open Source
+    3. Derivative Works of the ten-vad remain subject to this Open Source
        License.
 
-    3. "End Users" shall mean the end-users of your Application(s) who access
+    4. "End Users" shall mean the end-users of your Application(s) who access
        the ten-vad solely to the extent necessary to access and use the
        Application(s) you create or deploy using ten-vad.
 
-    4. "Application(s)" shall mean your software programs designed or developed
+    5. "Application(s)" shall mean your software programs designed or developed
        by using the ten-vad or where deployment is enabled by the ten-vad.
 
   Copyright © 2025 Agora
@@ -34,6 +39,8 @@ non-commercial purposes, provided that you agree to abide by the terms below:
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   See the License for the specific language governing permissions and
   limitations under the License.
+
+=======================================================================================
 
   Note that the project contains derived code from other open source project
   with BSD-3-Clause license, refer to the "LICENSE-BSD-3-Clause" file in the
