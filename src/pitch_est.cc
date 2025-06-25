@@ -5,8 +5,8 @@
 //
 // This file contains modified code derived from LPCNet (https://github.com/mozilla/LPCNet),
 // specifically from the following functions:
-//   - compute_frame_features() in lpcnet_enc.cc
-//   - process_superframe() in lpcnet_enc.cc
+//   - compute_frame_features() in lpcnet_enc.c
+//   - process_superframe() in lpcnet_enc.c
 //
 // Original LPCNet code copyright:
 //   Copyright (c) 2017-2019 Mozilla
