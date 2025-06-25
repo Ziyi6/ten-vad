@@ -43,5 +43,5 @@ non-commercial purposes, provided that you agree to abide by the terms below:
 =======================================================================================
 
   Note that the project contains derived code from other open source project
-  with BSD-3-Clause license, refer to the "LICENSE-BSD-3-Clause" file in the
-  root directory for detailed information.
+  with BSD-3-Clause and BSD-2-Clause license, refer to the "NOTICES" 
+  file in the root directory for detailed information.
