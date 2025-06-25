@@ -403,7 +403,7 @@ sudo apt install libc++1
 ```
 
 ##### **Usage (ONNX)**
-You have to download the **onnxruntime** packages from the official website. Note that the version of onnxruntime must be higher than or equal to 1.17.1 (e.g. onnxruntime-linux-x64-1.17.1.tgz).
+You have to download the **onnxruntime** packages from the [official website](https://github.com/microsoft/onnxruntime). Note that the version of onnxruntime must be higher than or equal to 1.17.1 (e.g. onnxruntime-linux-x64-1.17.1.tgz).
 ```
 1) cd examples_onnx/
 2) ./build-and-deploy-linux.sh --ort-root /absolute/path/to/your/onnxruntime/root/dir
